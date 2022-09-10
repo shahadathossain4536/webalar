@@ -25,12 +25,12 @@ const Works = () => {
     },
   ];
   return (
-    <div>
-      <h2 className="text-center text-7xl py-10">Our Works</h2>
+    <div className="px-12">
+      <h2 className="text-center text-4xl lg:text-7xl py-10">Our Works</h2>
       <section className="flex justify-center items-center pb-10">
         <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10">
           {projecstData.map((projectData) => (
-            <div className="card w-[433px] h-[500px]bg-base-100 shadow-xl">
+            <div className="card w-[370px] lg:w-[433px] h-[500px]bg-base-100 shadow-xl">
               <figure>
                 <img src={projectData.img} alt="Shoes" />
               </figure>

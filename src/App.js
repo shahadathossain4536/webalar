@@ -7,7 +7,7 @@ import Footer from "./Pages/Shared/Footer";
 
 function App() {
   return (
-    <div className="px-5">
+    <div className="px-1">
       <Navbar></Navbar>
       <Home></Home>
       <Footer></Footer>
