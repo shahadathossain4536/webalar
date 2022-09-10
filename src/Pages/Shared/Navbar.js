@@ -1,6 +1,6 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-
+import { Link, NavLink } from "react-router-dom";
+import logo from "../../assets/logoipsum-214.svg";
 const Navbar = () => {
   const menuItem = (
     <>
@@ -22,7 +22,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-base-300 shadow-xl rounded-lg">
+    <div className="navbar  shadow-xl rounded-lg">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -48,7 +48,9 @@ const Navbar = () => {
             {menuItem}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <Link to="/">
+          <img src={logo} alt="" srcset="" />
+        </Link>
       </div>
 
       <div className="navbar-end">

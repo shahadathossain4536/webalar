@@ -6,7 +6,7 @@ import logo4 from "../../assets/logoipsum-217.svg";
 import img1 from "../../assets/window-maximize-regular.svg";
 const Details = () => {
   return (
-    <section className="w-[370px] lg:w-[1340px] lg:h-[1050px] bg-slate-700 rounded-lg lg:mx-auto my-10">
+    <section className="w-[370px] lg:w-[1340px] lg:h-[1050px] bg-[#364F6B] rounded-lg lg:mx-auto my-10">
       <div className="grid grid-cols-3  justify-center items-center lg:px-[150px] pt-10">
         <div className="border-b-2"></div>
 

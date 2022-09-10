@@ -31,7 +31,7 @@ const Contact = () => {
     <section className="py-10">
       <h1 className="text-3xl sm:text-center lg:text-7xl">Connect with us</h1>
       <div className="flex flex-col lg:flex-row justify-around items-center">
-        <div className="lg:w-[773px] lg:h-[744px] bg-slate-700 rounded-xl my-10 ">
+        <div className="lg:w-[773px] lg:h-[744px] bg-[#364F6B] rounded-xl my-10 ">
           <div className="text-white py-10 px-5">
             <h2 className="text-3xl pb-5">Tell us about your project</h2>
             <p>

@@ -5,7 +5,7 @@ import instgram from "../../assets/square-instagram.svg";
 import twitter from "../../assets/square-twitter.svg";
 const Footer = () => {
   return (
-    <footer className="w-[370px] lg:w-[1341px] lg:h-[641px] bg-slate-700 rounded-t-lg lg:mx-auto ">
+    <footer className="w-[370px] lg:w-[1341px] lg:h-[641px] bg-[#364F6B] rounded-t-lg lg:mx-auto ">
       <div className="flex flex-col lg:flex-row justify-start lg:justify-evenly lg:items-center pt-10 lg:pt-20 lg:pb-10">
         <h2 className="text-white text-5xl lg:text-7xl lg:w-[474px] h-[173px] leading-[50px] lg:leading-[85px] px-5">
           Let’s work <br /> together
