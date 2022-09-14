@@ -33,7 +33,9 @@ const Contact = () => {
       <div className="flex flex-col lg:flex-row justify-around items-center">
         <div className="lg:w-[773px] lg:h-[744px] bg-[#364F6B] rounded-xl my-10 ">
           <div className="text-white py-10 px-5">
-            <h2 className="text-3xl pb-5">Tell us about your project</h2>
+            <h2 className="text-3xl pb-5 text-[#364F6B]">
+              Tell us about your project
+            </h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum
               lobortis mi vulputate potenti orci.

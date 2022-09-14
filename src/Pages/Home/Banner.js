@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <section className="grid lg:grid-cols-2 sm:grid-cols-1 lg:px-5  py-10 gap-10">
       <div>
-        <h2 className="text-3xl lg:text-7xl pb-10">
+        <h2 className="text-3xl lg:text-7xl pb-10 text-[#364F6B]">
           Let’s create <br></br> something great <br></br> together
         </h2>
         <p className="text-base pb-10">
